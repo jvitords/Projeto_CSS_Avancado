@@ -1,0 +1,47 @@
+* {
+  background-color: white;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.img_logo {
+  height: 80px;
+  background-color: black;
+}
+
+.img_obc {
+  height: 80px;
+  background-color: black;
+}
+
+.buttons {
+  height: 100px;
+  background-color: black;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.botoes {
+  font-size: 16px;
+  padding: 20px 15px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.botoes:hover {
+  border-color: red;
+}

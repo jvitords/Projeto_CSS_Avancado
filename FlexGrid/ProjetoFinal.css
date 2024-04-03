@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 10px;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 180px;
+}
+.img_OneBitCode {
+  height: 60px;
+  padding: 10px;
+}
+
+.buttons {
+  height: 100px;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.botoes {
+  height: 50px;
+  width: 70px;
+  font-size: 16px;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.botoes:hover {
+  border-color: red;
+}
+
+.titulo_principal {
+  text-align: center;
+  padding: 30px;
+}
+.titulo {
+  font-size: 24px;
+}
+.subtitulo {
+  font-size: 18px;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "conteudo_geral conteudo_lateral";
+  padding: 10px 0px 10px 0px;
+  flex: 1 0 auto;
+}
+.conteudo_geral {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 30px;
+  gap: 10px;
+}
+.imagens_geral {
+  height: 200px;
+  width: 250px;
+  border-radius: 5%;
+}
+.blocos_geral {
+  height: 370px;
+  width: 254px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+}
+.blocos_geral:hover {
+  border: 2px solid rgb(153, 153, 153);
+}
+.texto_blocos {
+  height: auto;
+  width: 250px;
+}
+
+.titulo_lateral {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+.conteudo_lateral {
+  background-color: rgb(85, 84, 84);
+  width: 250px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.blocos_lateral {
+  height: 240px;
+  width: 204px;
+  color: white;
+  border-radius: 5%;
+}
+.blocos_lateral:hover {
+  border: 2px solid rgb(193, 193, 193);
+}
+.imagens_lateral {
+  height: 200px;
+  width: 200px;
+  border-radius: 5%;
+}
+.texto_lateral {
+  text-align: center;
+  color: white;
+}
+
+.footer {
+  padding: 10px;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 180px;
+}
+.botao_topo {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
